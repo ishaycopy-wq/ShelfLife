@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b542a1152570140995b90f20d27a9c, type: 3}
+  m_Name: Milk
+  m_EditorClassIdentifier: Assembly-CSharp::ProductData
+  productName: Milk
+  price: 7.5
+  productColor: {r: 0.9411765, g: 0.9607843, b: 0.98039216, a: 1}
+  receiptDescription: exp. tomorrow, in denial
+  catchLines:
+  - '"I had plans on that floor."'
+  - '"Fine. Back to the shelf I go."'
+  - '"Caught me. Wow. Want a medal?"'
+  missLines:
+  - '"The floor gets it. The floor understands."'
+  - '"Tell my shelf I loved it."'
+  - '"Freedom tastes like linoleum."'
+  rejectionLines:
+  - '"You hesitated."'
+  - '"We made eye contact. You looked away."'

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b542a1152570140995b90f20d27a9c, type: 3}
+  m_Name: EggCarton
+  m_EditorClassIdentifier: Assembly-CSharp::ProductData
+  productName: Egg Carton
+  price: 2.65
+  productColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+  receiptDescription: 1 of 12, condolences
+  catchLines:
+  - '"You know I was enjoying the fall, right?"'
+  - '"I''ll remember this. Not fondly."'
+  - '"Oh, your reflexes work. Barely."'
+  missLines:
+  - '"This is fine. Everything is fine."'
+  - '"Was it worth 2.65 shekels? Didn''t think so."'
+  - '"I always knew I''d end up here."'
+  rejectionLines:
+  - '"Classic. You chose the MILK."'
+  - '"You picked the BANANA? He''s DAYS from expiry."'

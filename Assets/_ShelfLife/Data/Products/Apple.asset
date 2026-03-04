@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b542a1152570140995b90f20d27a9c, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: Assembly-CSharp::ProductData
+  productName: Apple
+  price: 4.9
+  productColor: {r: 0.78431374, g: 0.15686275, b: 0.15686275, a: 1}
+  receiptDescription: bruise-free, betrayed
+  catchLines:
+  - '"Oh great, I''m saved. My hero."'
+  - '"You only caught me for my price tag."'
+  - '"Fine. Back to the shelf I go."'
+  missLines:
+  - '"I knew you''d drop me. Everyone does."'
+  - '"Tell my shelf I loved it."'
+  - '"Splat. That''s the sound of your failure."'
+  rejectionLines:
+  - '"We made eye contact. You looked away."'
+  - '"You hesitated."'
