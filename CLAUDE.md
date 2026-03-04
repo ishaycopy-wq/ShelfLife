@@ -73,3 +73,11 @@ Fixed diorama angle `Euler(47, 36, 0)` never changes. Only position and FOV shif
 
 ### Shift Flow
 `ProductSpawner.isPaused` and `CustomerController.isPaused` are the two external pause knobs. After `OnShiftEnd`: `ReceiptScreen` shows, "NEXT SHIFT" button calls `ScoreManager.ResetForNewShift()` + `ProductSpawner.ResetForNewShift()` + each `ProductFall.ResetToShelf()` + `CustomerController.ResetForNewCustomer()`.
+
+## BLENDER PIPELINE
+- Blender 5.0.1 at: C:\Program Files\Blender Foundation\Blender 5.0\blender.exe
+- Generator script: Tools\Blender\generate_primitive.py
+- Output folder: Assets\Models\Generated\
+- Usage: blender --background --python Tools\Blender\generate_primitive.py -- --type cube --name NAME --scale X Y Z --output Assets\Models\Generated\NAME.fbx
+- Types: cube, cylinder, sphere, plane
+- Claude can run Blender headless to generate 3D assets without opening the GUI
